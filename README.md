@@ -1,9 +1,9 @@
-WORKSHOP_TITLE
+Clinical Reporting in R
 ================
 
 ### rstudio::conf 2022
 
-by INSTRUCTOR_NAME
+by Andy Nicholls and Christina Fillmore
 
 -----
 
