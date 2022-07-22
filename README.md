@@ -18,29 +18,29 @@ can remove these instructions from the README.
 
 :spiral_calendar: July 25 and 26, 2022  
 :alarm_clock:     09:00 - 17:00  
-:hotel:           \[ADD ROOM\]  
+:hotel:           Chesapeake D  
 :writing_hand:    [rstd.io/conf](http://rstd.io/conf)
 
 -----
 
 ## Overview
 
-ABSTRACT
+R already provides the necessary low level building blocks to transform, manipulate and analyse clinical trial data. The Tidyverse makes this even easier. However, the clinical trial reporting process has evolved into a complex set of standards and reporting practices that need to be followed. The Pharmaverse collaboration aims to deliver a “curated and opinionated subset of open-source software packages and codebases, which would be based on the R language and those that we believe are the most suitable for the industry to adopt in order to deliver the clinical data pipeline”.
+
+In this workshop you will be working with the Tidyverse and the first generation of Pharmaverse tools in order to ‘deliver’ typical clinical trial displays. Specifically, we will walk through an end-to-end focussing on a sample of demographic, safety and efficacy summaries.
 
 ## Learning objectives
 
-LEARNING_OBJECTIVES
+The goal of this workshop is to understand the different pharmaverse packages work together to create a clinical data pipeline. 
 
 ## Is this course for me?
 
-THREE_QUESTIONS
+- Are you a clinical programmer, statiscian, or data scientist in the pharma industry? 
+- Do you want to start using R in your day to day work? 
 
 ## Prework
 
-\[ADD INFORMATION YOU WANT LEARNERS TO HAVE / STEPS THEY WANT THEM TO
-COMPLETE PRIOR TO THE WORKSHOP. THIS COULD BE A LINK TO A THREAD ON
-RSTUDIO COMMUNITY, PACKAGE INSTALL INSTRUCTIONS, HOW TO GET AN
-RSTUDIO.CLOUD ACCOUNT, ETC.\]
+We will be using RStudio Cloud on the day.  If you haven’t used RStudio before, please register [here](https://client.login.rstudio.cloud/oauth/register).  On the day, we will share a further link with you that will give you access to the course workspace. 
 
 ## Schedule
 
@@ -70,7 +70,11 @@ RSTUDIO.CLOUD ACCOUNT, ETC.\]
 
 ## Instructor
 
-\[ADD INSTRUCTOR BIO\]
+Andy Nicholls  
+- Andy Nicholls has been an R user and advocate for over 15 years. He is currently Head of Data Science within GSK’s Biostatistics function and is responsible for driving R adoption. Andy and his team have developed GSK’s world-wide R training programming and drove the creation of Biostatistics’ first dedicated analytics platform for R. The team now maintains several R-based tools and applications which were developed to facilitate the use of R for clinical reporting. Several of these tools have now been released into the public domain under the ‘Pharmaverse’ umbrella. Andy is the lead for the R Validation Hub, a collaboration to support the adoption of R within a biopharmaceutical regulation setting.
+
+Christina Fillmore
+- Christina Fillmore formally trained as a statistician, over her 5 years at GSK has transitioned into a data scientist. Her focus is on open source package development in a regulated environment. She also has a keen interesting in helping other develop R skills and become confident R programmers. She leads the development of metacore, metatools, and tlang as part of the Pharmaverse collaboration.
 
 -----
 
