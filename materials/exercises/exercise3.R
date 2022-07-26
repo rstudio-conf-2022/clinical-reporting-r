@@ -65,8 +65,9 @@ data <- crossing(visit, pfts, trt, param) %>%
 # have +0 rounding and the quantiles have +1 rounding
 ?param_set()
 
-# ii) Using the set of parameters from (i) create a tfrmt using `tfrmt_sigdig()`.
-# The group and label values should match the column names in `data`.
+# ii) Using the set of parameters from (i) create a tfrmt using `tfrmt_sigdig()`
+# and the `sigdig_df` data.
+# The `group` and `label` argument inputs should take column names from `data`.
 ?tfrmt_sigdig()
 
 # iii) Add another tfrmt layer to (ii) to add the names of the `column` and

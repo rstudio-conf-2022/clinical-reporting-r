@@ -6,15 +6,16 @@ library(metatools)
 
 # Here we will make the ADPFT dataset together 
 
-metacore<- spec_to_metacore("specs/specs.xlsx", where_sep_sheet = FALSE)
+metacore<- spec_to_metacore("materials/specs/specs.xlsx", where_sep_sheet = FALSE)
 
-adsl <- read_xpt("datasets/ADAM/adsl.xpt")
-re <- read_xpt("datasets/SDTM/re.xpt")
+adsl <- read_xpt("materials/datasets/ADAM/adsl.xpt")
+re <- read_xpt("materials/datasets/SDTM/re.xpt")
 
 # import metadata/data ---------------------------------------------------------
 
 print(metacore)
 
+metacore$ds_spec
 # It has the 3 datasets we will be using for our tables 
 metacore$ds_spec
 # We can see the metadata from the spec document is now in this structure in R 
@@ -34,7 +35,7 @@ pred_vars <-  build_from_derived(adpft_spec,
                                  ds_list = list("adsl" = adsl,"re" = re), 
                                  keep = FALSE) 
 
-head(pred_vars)
+pred_vars
 
 # Now we can see what variables we need to create 
 check_variables(pred_vars, adpft_spec)
